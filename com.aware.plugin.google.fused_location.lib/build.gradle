@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "27.0.1"
 
     defaultConfig {
 //        applicationId "com.aware.plugin.google.fused_location"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 25
         versionCode version_code
         versionName version_readable
